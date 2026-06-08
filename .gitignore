@@ -1,0 +1,50 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+
+# Virtual Environments (Never commit these!)
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/s
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# Local environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Backup or temporary env files
+.env.bak
+.env.old
+
+# Python & UV dependencies
+.venv/
+uv.lock
+
+# Vector store data (Don't commit your local database files!)
+vectorstores/
+*.index
+*.pkl
+
+# Environments & Secrets
+.env
+.env.local
